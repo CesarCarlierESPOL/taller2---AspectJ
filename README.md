@@ -8,10 +8,8 @@ Karla Castro
 
 ## Funcionamiento de aspects
 
-_Aspect de creación de usuario_
-![Creación de Usuario]("./image/aspect_user.png")
+![Aspect de creación de usuario](/image/aspect_user.png)
 
 
-_Aspect de transacciones_
-![Transacciones]("./image/aspect_transactions.png")
+![Aspect de transacciones](/image/aspect_transactions.png)
 
