@@ -7,9 +7,9 @@ import java.io.IOException;
 public aspect Logger{
 		
 	/* Aspect a realizar:
-	 * DespuÃ©s de cada llamada a una transacciÃ³n, se debe mostrar en 
-	 * pantalla y guardar en un archivo â€œLog.txtâ€� lo siguiente: 
-	 * el tipo de transacciÃ³n realizada y la hora.
+	 * Despues de cada llamada a una transaccion, se debe mostrar en 
+	 * pantalla y guardar en un archivo "Log.txt" lo siguiente: 
+	 * el tipo de transaccion realizada y la hora.
 	 */
 	pointcut successA() : call(* *.moneyMakeTransaction());
     after() : successA() {
